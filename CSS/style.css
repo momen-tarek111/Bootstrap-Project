@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(235, 235, 235); 
+}
+.logo-nav{
+    width: 60px;
+    height: 60px;
+}
+.word-nav,.p1,.p2,.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top,rgb(173, 3, 252),rgb(62, 239, 252));
+    color: transparent;
+    -webkit-background-clip:text;
+}
+.word-nav{
+    font-size: 25px;
+}
+.line{
+    width: 1px;
+    height: 40px;
+    margin: 0 10px;
+    display: inline-block;
+    background-color: rgb(184, 184, 184);
+    color: #a3ffff;
+    
+}
+.imgs{
+    height: 88.5vh;
+}
+.icon{
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #225a5e;
+}
+.icon:hover{
+    color: #62cbcb;
+}
+.p1{
+    font-size: 30px;
+}
+.accordion-button{
+    position: static;
+}
+.p2{
+    font-size: 23px; 
+}
+.l{
+    width: 60px;
+    height: 6px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 255);
+    transition: all .5s;
+}
+.l2{
+    background-color: rgb(255, 153, 0);
+}
+.l3{
+    background-color: rgb(39, 169, 0);
+}
+.l4{
+    background-color: rgb(141, 129, 0);
+}
+.footicon,.footicon2{
+    background-color: rgb(154, 154, 154); 
+    padding:2px 8px;
+}
+.footicon2{
+    color: #1c6b71;
+}
+.footicon:hover{
+    background-color: #6c6c6c;
+}
+.footicon2:hover {
+    background-color: rgba(0, 81, 202, 0.735);
+    color: rgba(255, 255, 255, 0.473);
+}
+.footicon3:hover{
+    background-color: rgba(255, 93, 53, 0.735);
+    
+}
+.footicon4:hover{
+    background-color: rgb(39, 169, 0);
+}
+.footicon5:hover{
+    background-color: rgb(181, 166, 0);
+}
+.podcast1{
+    box-shadow: 0px 0px 55px 0px rgba(157,141,235,1);
+    background: linear-gradient(92deg, rgba(196,254,255,0.6106092095041141) 0%, rgba(232,254,255,0.17923666048450626) 71%, rgba(255,255,255,0.36691173051251746) 100%);
+    padding-right: 0;
+    border-radius: 15px;
+   
+}
+.podcast2{
+    padding-left:0px;
+    background: linear-gradient(92deg, rgba(255,247,236,1) 0%, rgba(255,242,224,0.7590685932576156) 71%, rgba(255,188,87,0.36691173051251746) 100%);
+}
+.podcast3{
+    background: linear-gradient(92deg, rgba(201,232,212,1) 0%, rgba(230,246,233,0.17923666048450626) 71%, rgba(255,255,255,0.36691173051251746) 100%);
+}
+.podcast4{
+    padding-left: 0;
+    background: linear-gradient(92deg, rgba(255,255,255,0.6106092095041141) 0%, rgba(149,156,0,0.15122545600271353) 71%, rgba(144,165,0,0.1988445036217612) 100%);
+}
+.cont{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
+    border-radius: 0 15px 15px 0;
+}
+.cont1{
+    clip-path: polygon(0 0, 100% 0, 86% 100%, 0 100%);
+    border-radius: 15px 0px 0px 15px;
+}
+.podcast-img{
+    background-image: url(../images/مدينة\ الجلالة\ الجديدة2.jpg);
+    background-size: cover;
+    height: 61vh; 
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+.podcast-img1{
+    background-image: url(../images/OIP.jpeg);
+}
+.podcast-img2{
+    background-image: url(../images/d957233cb12bf6978b6a477bf56b605a.jpg);
+}
+.podcast-img3{
+    background-image: url(../images/Siwa-Oasis-min-1080x810.jpg);
+}
+.podcast1:hover .podcast-img,
+.podcast1:focus .podcast-img{
+     transform: scale(1.1);
+}
+.podcast1:hover .l,
+.podcast1:focus .l{
+    width: 150px;
+}
+
+.logo-footer{
+    width: 90px;
+    height: 90px;
+}
+
+.thanks1{
+    transition: all 0.5s;
+}
+.thanks1:hover{
+    transform: scale(0.9);
+}
+.overlay{
+    position: absolute; 
+    background-color: rgb(58, 58, 58);
+     opacity: 0.6; height: 400px;
+      width: 350px;
+      border-radius:29px ;
+}
+.thanks1:hover .overlay{
+    background-color: rgba(9, 50, 104, 0.861);
+}
+.card::after,.card::before{
+    position: absolute;
+    content: "";
+    
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    background-color:#00ffff5e;
+    transition: 1s;
+}
+.card::after{
+    top: 0;
+    left: 0;
+}
+.card::before{
+    bottom: 0%;
+    right: 0%;
+}
+.card:hover::after,.card:hover::before {
+width: 100%;
+height: 100%;
+opacity: 1;
+}
