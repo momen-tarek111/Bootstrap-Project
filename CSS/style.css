@@ -6,6 +6,9 @@
 body{
    background-color: rgb(235, 235, 235); 
 }
+.aside{
+    top: 30%; left: 94%; position: fixed; z-index: 222;
+}
 .logo-nav{
     width: 60px;
     height: 60px;
@@ -206,6 +209,12 @@ opacity: 1;
     }
     .podcast-img{
         height: 20vh; 
+    }
+    .aside{
+        left: 90%;
+    }
+    .imgs{
+        height: 25vh;
     }
 }
 @media (max-width:768px){
