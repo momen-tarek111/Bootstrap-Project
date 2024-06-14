@@ -149,6 +149,7 @@ body{
 }
 
 .thanks1{
+    position: relative;background-image: url(../images/photo_2024-04-08_03-19-25.jpg); background-repeat: no-repeat;background-size: cover; height: 400px; width: 350px;border-radius:29px ;
     transition: all 0.5s;
 }
 .thanks1:hover{
@@ -199,6 +200,9 @@ opacity: 1;
 .under-img2{
     background-image: url(../images/sailboat-nile-cruise-egypt.jpg);
 }
+.thanks1-foot{
+    margin-top: 100px;
+}
 @media (max-width:992px){
     .podcast1,.podcast3{
         display: flex;
@@ -228,8 +232,20 @@ opacity: 1;
         height: 25vh;
     }
     .under-img{
-        height: 20vh;
-        background-size: cover; 
-        background-repeat: no-repeat;
+        height: 30vh;
+    }
+    .thanks1{
+        height: 550px;
+        width: 500px;
+    }
+    .overlay{
+        height: 550px;
+        width: 500px;
+    }
+    .thanks1-foot{
+        margin-top: 200px;
+    }
+    .thanks1-p{
+        font-size: 22px;
     }
 }
