@@ -118,7 +118,7 @@ body{
 .podcast-img{
     background-image: url(../images/مدينة\ الجلالة\ الجديدة2.jpg);
     background-size: cover;
-    height: 61vh; 
+    height:100%; 
     background-repeat: no-repeat;
     transition: all .5s;
 }
@@ -184,7 +184,8 @@ width: 100%;
 height: 100%;
 opacity: 1;
 }
-@media (max-width:768px){
+
+@media (max-width:992px){
     .podcast1,.podcast3{
         display: flex;
         flex-direction: column-reverse;
@@ -204,6 +205,18 @@ opacity: 1;
         border-radius: 15px 15px 0px 0;
     }
     .podcast-img{
+        height: 20vh; 
+    }
+}
+@media (max-width:768px){
+    .podcast-img{
         width: 100%;
+        height: 30vh; 
+    }
+}
+@media (max-width:567px){
+    .podcast-img{
+        width: 100%;
+        height: 20vh; 
     }
 }
