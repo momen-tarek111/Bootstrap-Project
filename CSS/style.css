@@ -228,11 +228,8 @@ opacity: 1;
         height: 25vh;
     }
     .under-img{
-        height: 25vh;
+        height: 20vh;
+        background-size: cover; 
+        background-repeat: no-repeat;
     }
 }
-/* @media (max-width:567px){
-    .under-img{
-        height: 10vh;
-    }
-} */
